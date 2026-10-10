@@ -1,0 +1,11 @@
+{
+  "name": "the-last-birthday-1983",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A first-person branching horror visual novel for GitHub Pages.",
+  "scripts": {
+    "test": "node tests/validate.mjs && node tests/css.mjs && node tests/engine.mjs && node tests/runtime.mjs",
+    "bundle": "node tests/bundle.mjs"
+  }
+}
